@@ -1,25 +1,38 @@
-
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Интерактивные карточки</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Flash Cards</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="flashcard-container">
-    <div class="flashcard" id="card">
-      <img src="card1.jpg" alt="Карточка 1" class="flashcard-image">
-      <div class="flashcard-content">
-        <h2>Тема карточки</h2>
-        <p>Описание или текст по теме</p>
+  <div class="flashcards-container">
+    <div class="flashcard" id="card1">
+      <div class="card-front">
+        <h3>What is the capital of Kazakhstan?</h3>
+      </div>
+      <div class="card-back">
+        <h3>Nur-Sultan</h3>
       </div>
     </div>
-    <button class="nav-btn" id="prev">Назад</button>
-    <button class="nav-btn" id="next">Вперёд</button>
+    <div class="flashcard" id="card2">
+      <div class="card-front">
+        <h3>What is the chemical symbol for water?</h3>
+      </div>
+      <div class="card-back">
+        <h3>H₂O</h3>
+      </div>
+    </div>
+    <div class="flashcard" id="card3">
+      <div class="card-front">
+        <h3>What is the square root of 64?</h3>
+      </div>
+      <div class="card-back">
+        <h3>8</h3>
+      </div>
+    </div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
